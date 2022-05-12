@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important
+}
+
+.btn-success:hover{
+    background-color: rgb(112, 254, 4);
+}
+
+canvas{
+   animation-name: WhiteHatjunior;
+   animation-duration:4s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes WhiteHatjunior {
+    from{box-shadow:1px 1px 38px rgb(4, 147, 248);}
+    to{box-shadow:1px 1px 38px rgb(251, 4, 45);}
+
+}
+
+.image{
+    background-size: cover;
+    background-position: center;
+}
